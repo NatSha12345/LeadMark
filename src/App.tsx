@@ -43,7 +43,7 @@ function App() {
 
           {displayedText.length === fullText.length && (
             <p className="text-xl md:text-2xl text-black font-light max-w-2xl mx-auto animate-fade-in">
-              Leaders in Transformation with Automation
+              Your AI Transformation Partner
             </p>
           )}
         </div>
@@ -52,9 +52,9 @@ function App() {
           <div className="flex justify-center animate-fade-in">
             <div className="relative inline-block">
               <div className="absolute inset-0 bg-yellow-500 rounded-full blur-xl opacity-30 animate-pulse"></div>
-              <button className="relative px-10 py-4 bg-gradient-to-r from-yellow-400 to-yellow-500 text-black text-lg font-semibold rounded-full shadow-2xl hover:shadow-yellow-500/50 transition-all duration-300 hover:scale-105">
-                Launching Soon
-              </button>
+              <a href="https://tally.so/r/wv7LW0" target="_blank" rel="noopener noreferrer" className="relative inline-block px-10 py-4 bg-gradient-to-r from-yellow-400 to-yellow-500 text-black text-lg font-semibold rounded-full shadow-2xl hover:shadow-yellow-500/50 transition-all duration-300 hover:scale-105 no-underline">
+                Book a Consultation
+              </a>
             </div>
           </div>
         )}
